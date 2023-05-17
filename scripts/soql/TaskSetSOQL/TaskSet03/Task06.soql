@@ -1,0 +1,7 @@
+//## Task 6: 
+//Write a SOQL query to retrieve the average ExpectedRevenue for all Opportunity records where the CloseDate is in the current year.
+
+
+SELECT AVG(ExpectedRevenue)
+FROM Opportunity
+WHERE CloseDate = THIS_YEAR

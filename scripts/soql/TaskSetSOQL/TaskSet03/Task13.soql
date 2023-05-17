@@ -1,0 +1,10 @@
+//## Task 13: 
+//Write a SOQL query to 
+//retrieve the LeadSource, the average NumberOfEmployees, and the count of Lead records 
+//for each LeadSource where the average NumberOfEmployees is greater than 50.
+
+
+SELECT LeadSource, AVG(NumberOfEmployees), COUNT(Id)
+ FROM  Lead
+ GROUP BY LeadSource
+ HAVING AVG(NumberOfEmployees) > 50

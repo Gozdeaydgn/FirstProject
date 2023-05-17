@@ -1,0 +1,9 @@
+//## Task 12: 
+//Write a SOQL query to 
+//retrieve the Industry, the maximum AnnualRevenue, and the count of Account records 
+//for each Industry where the maximum AnnualRevenue is greater than 1000000.
+
+SELECT Industry, MAX(AnnualRevenue), COUNT(Id)
+FROM Account
+GROUP BY Industry
+HAVING MAX(AnnualRevenue) > 1000000

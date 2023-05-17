@@ -1,0 +1,11 @@
+//7. Write a SOQL SELECT statement to retrieve the Name,AnnualRevenue and Industry fields for all **Account** records 
+//   - where the Industry is Finance.
+//   - sort the result by AnnualRevenue descending
+//   - Limit the result to 
+
+
+SELECT Name, AnnualRevenue, Industry
+FROM Account
+WHERE Industry = 'Finance'
+ORDER BY AnnualRevenue DESC
+LIMIT 3 

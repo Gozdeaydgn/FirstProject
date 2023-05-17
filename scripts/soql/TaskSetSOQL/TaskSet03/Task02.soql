@@ -1,0 +1,5 @@
+//## Task 2: 
+//Write a SOQL query to retrieve the minimum CreatedDate for all Case records.
+
+SELECT MIN(CreatedDate)
+ FROM Case

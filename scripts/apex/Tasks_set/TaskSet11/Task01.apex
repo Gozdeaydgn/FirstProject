@@ -1,0 +1,11 @@
+1. Create a Map<String, Integer> to store group name and member count
+   -  Add 5 items into this Map 
+   -  Check if there is a group called Apex Soldiers 
+      -  print out the result in boolean 
+   -  Check if there is a group called Winterfell Vacation
+      -  if so , store the value into a Variable called vMemberCount
+         -  remove this group from the map 
+         -  add new item to the map with below key-value pair
+            -  Winterfell Coders as key , value of vMemberCount as value
+   -  Check if there is a group with 10 members
+      -  if so , decrease the value to 9 

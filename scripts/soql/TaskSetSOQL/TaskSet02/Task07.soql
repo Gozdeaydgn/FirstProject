@@ -1,0 +1,8 @@
+//## Task 7:
+
+//Write a SOQL SELECT statement to retrieve
+//the Name and Role.Name fields for all User records where the Role.Name contains Sale or CEO
+
+
+
+

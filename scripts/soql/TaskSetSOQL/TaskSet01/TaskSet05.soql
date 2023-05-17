@@ -1,0 +1,7 @@
+//5. Write a SOQL SELECT statement to retrieve all records from the Lead object, including Name ,Fax, Title, Company
+//   - Filter the result using below criteria 
+//   - Fax is not NULL
+
+SELECT Name, Fax, Title, Company
+ FROM Lead
+ WHERE Fax != null

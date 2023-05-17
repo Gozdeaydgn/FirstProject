@@ -1,0 +1,9 @@
+//## Task 11: 
+//Write a SOQL query to 
+//retrieve the Type and the count of Account records 
+//for each Type where the count of records is greater than 5. ====> WHERE = HAVING
+
+SELECT Type, COUNT(Id) 
+FROM Account    
+GROUP BY Type
+HAVING COUNT(Id)>5

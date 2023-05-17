@@ -1,0 +1,6 @@
+//## Task 9: 
+//Write a SOQL query to retrieve the average Amount for all Opportunity records where the StageName is not equal to 'Closed Won'.
+
+SELECT AVG(Amount)
+FROM Opportunity
+WHERE StageName != 'Closed Won'

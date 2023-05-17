@@ -1,0 +1,10 @@
+//## Task 14: 
+//Write a SOQL query to 
+//retrieve the StageName, the sum of Amount, and the count of Opportunity records 
+//for each StageName where the sum of Amount is greater than 1000000.
+
+
+SELECT StageName, SUM(Amount), COUNT(Id)
+FROM Opportunity
+GROUP BY StageName
+HAVING SUM(Amount) > 1000000

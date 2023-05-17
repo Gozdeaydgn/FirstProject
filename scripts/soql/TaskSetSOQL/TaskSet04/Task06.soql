@@ -1,0 +1,4 @@
+//## Task 6: 
+//Write a SOQL SELECT statement to 
+//retrieve the Subject , Contact.Name and Status fields 
+//for all Cases records associated with an Contact Super Jon 

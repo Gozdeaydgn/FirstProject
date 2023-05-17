@@ -1,0 +1,13 @@
+//## Task 9:
+//Write a SOQL SELECT statement to retrieve
+//the Subject, Contact.Name, fields for all Case records where 
+//  - the Contact.Name is not null and
+ // - Subject contains Generator
+
+
+
+SELECT Subject, Contact.Name
+FROM Case
+WHERE Contact.Name != null
+AND Subject LIKE '%Genertor%'
+

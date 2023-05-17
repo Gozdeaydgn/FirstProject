@@ -1,0 +1,7 @@
+//## Task 7: 
+//Write a SOQL query to retrieve the sum of NumberOfEmployees for all Account records where the Type is 'Customer' and the Industry is 'Finance'.
+
+SELECT SUM(NumberOfEmployees)
+FROM Account
+WHERE Type = 'Customer'
+AND Industry = 'Finance'

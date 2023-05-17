@@ -1,0 +1,8 @@
+//## Task 4: 
+//Write a SOQL SELECT statement to 
+//retrieve the Name , Account.Name and StageName fields 
+//for all Opportunity records associated with an Account Super Parent 
+
+SELECT Name, Account.Name, StageName 
+FROM Opportunity
+WHERE Account.Name = 'Super Parent'

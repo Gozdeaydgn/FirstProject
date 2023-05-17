@@ -1,0 +1,9 @@
+//4. Write a SOQL SELECT statement to retrieve all records from the Lead object, including Name ,LeadSource, Title, Company
+ //  - Filter the result one by one using below criteria 
+ //  - Title is CFO or CEO 
+// - AND LeadSource is Web
+
+
+SELECT Name, LeadSource, Title, Company
+FROM Lead
+WHERE Title IN ('CFO' , 'CEO')  OR LeadSource='Web'

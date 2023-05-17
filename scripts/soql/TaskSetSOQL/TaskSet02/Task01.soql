@@ -1,0 +1,10 @@
+// Task 1:
+
+//Write a SOQL SELECT statement to
+//retrieve the Id and Name fields for all Profile records
+//if Name is NightWatcher .
+
+
+SELECT Id, Name
+FROM  Profile
+WHERE Name = 'NightWatcher'

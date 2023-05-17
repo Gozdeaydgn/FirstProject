@@ -1,0 +1,3 @@
+//## Task 5 
+//Write a SOQL SELECT statement to
+//retrieve the count of Boat records where the RecordType.Name is Speedboat.

@@ -1,0 +1,8 @@
+//## Task 3:
+
+//Write a SOQL SELECT statement to
+//retrieve the Name, RecordTypeId and RecordType.Name fields for all Boat records where the RecordType.Name contains boat.
+
+SELECT Name, RecordTypeId, RecordType.Name
+FROM  Boat
+WHERE RecordType.Name LIKE '%boat%'

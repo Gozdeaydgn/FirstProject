@@ -1,0 +1,9 @@
+//## Task 11:
+//Write a SOQL SELECT statement to retrieve
+//the Account Name, Child Cases with Subject contains Generator,  
+//for all ===Account=== records, only return account with cases
+
+SELECT Name, (SELECT Subject FROM Cases WHERE Subject LIKE '%Generator%')
+ FROM Account
+ WHERE Id IN (SELECT AccountId from Case)
+

@@ -1,0 +1,29 @@
+// Pre-work
+
+// 1. Create a Custom Object Boat with Fields:
+//   - Boat Name (Text)
+//   - Length (Number)
+//   - Color (Text)
+ //  - Year Built (Date)
+ //  - Current Owner (Lookup to Account)
+
+//2. Add 3 Record Types
+//   - Speedboat
+ //    - Fuel Type: Gas, Diesel
+   //  - Steering Type: Wheel, Joystick
+//   - Yacht
+//     - Fuel Type: Diesel, Hybrid, Electric
+//     - Hull Material: Fiberglass, Aluminum, Steel
+//   - Sailboat
+//     - Sail Type: Sloop, Cutter, Ketch
+//
+//3. Add 3-4 Records for each Record Type 
+
+//4. Create a new Profile NightWatcher (by cloning standard user profile) 
+//   - Remove Account and Opportunity delete access
+//   - Assign Boat object full crud (Create Read Update Delete) access
+//   - Assign (Yacht,Sailboat) record types only
+
+//5. Create a new user Jon Snow in your org with NightWatcher profile
+//6. Assign yourself CEO Role and Assign Jon snow Western Sales Team
+//7. Create couple Boat records under Jon Snow

@@ -1,0 +1,12 @@
+// Task 2:
+
+//Write a SOQL SELECT statement to
+//retrieve the Name and Profile Name fields for all User records
+//if Profile.Name is NightWatcher Or it Starts with System.
+
+SELECT Name, Profile.Name
+ FROM User
+WHERE Profile.Name = 'NightWatcher'
+OR  Profile.Name LIKE 'System%'
+
+

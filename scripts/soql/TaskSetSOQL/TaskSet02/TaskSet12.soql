@@ -1,0 +1,8 @@
+//## Task 12: 
+//Write a SOQL SELECT statement to retrieve
+//the Account Name, Child Opportunity with StageName is Closed Won,  for all Account records, only return those accounts with Closed Won Opportunities as child records
+
+
+
+
+// ???? ---- Part 2 on the way for Trailhead module DreamHouse related tasks

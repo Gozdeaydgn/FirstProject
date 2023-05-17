@@ -1,0 +1,11 @@
+//  TASK 6:
+
+//Write a SOQL SELECT statement to retrieve
+//the Name and Role.Name fields for all User records where the Role.Name contains Sale or CEO
+
+
+
+SELECT Name, UserRole.Name
+FROM User
+WHERE UserRole.Name LIKE '%Sale%'
+OR UserRole.Name LIKE '%CEO%'

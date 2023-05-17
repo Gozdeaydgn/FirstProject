@@ -1,0 +1,3 @@
+//## Task 4 
+//Write a SOQL SELECT statement to
+//retrieve the Name, CreatedBy.Name and Year_Built fields for all Boat records where the CreatedBy.Name is Jon Snow and Year_Built is Before LAST_YEAR.

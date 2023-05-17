@@ -1,0 +1,6 @@
+//## Task 8: 
+//Write a SOQL query to retrieve the minimum LastModifiedDate for all Lead records where the Status is 'Open'.
+
+SELECT MIN(LastModifiedDate)  
+FROM Lead
+WHERE Status = 'Open'

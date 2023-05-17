@@ -1,0 +1,6 @@
+//## Task 5: 
+//Write a SOQL query to retrieve the maximum CreatedDate for all Account records where the Type is 'Prospect'.
+
+SELECT MAX(CreatedDate)
+ FROM Account
+ WHERE Type = 'Prospect' 

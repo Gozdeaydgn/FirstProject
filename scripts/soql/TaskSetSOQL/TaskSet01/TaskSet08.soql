@@ -1,0 +1,7 @@
+//8. Write a SOQL SELECT statement to retrieve the Name,ProductCode and CreatedDate fields for all **Product2** records 
+//   - Order the Result by ProductCode
+
+
+SELECT Name, ProductCode, CreatedDate
+FROM Product2
+ORDER BY ProductCode

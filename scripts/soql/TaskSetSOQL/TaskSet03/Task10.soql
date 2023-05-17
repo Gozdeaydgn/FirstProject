@@ -1,0 +1,9 @@
+//## Task 10: 
+//Write a SOQL query to retrieve the count of Case records where the Priority is High'.
+
+
+SELECT COUNT(Id) 
+FROM Case
+WHERE Priority = 'High'
+
+

@@ -1,0 +1,9 @@
+//    ## Task 4: 
+//Write a SOQL query to retrieve the sum of Amount for all Opportunity records 
+//where the StageName is 'Closed Won'.
+
+SELECT SUM(Amount) 
+FROM Opportunity
+WHERE StageName = 'Closed Won'
+
+

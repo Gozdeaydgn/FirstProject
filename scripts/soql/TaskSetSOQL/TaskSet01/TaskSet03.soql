@@ -1,0 +1,8 @@
+//3. Write a SOQL SELECT statement to retrieve all records from the Lead object, including Name ,Country, Title, Company, Phone , State, Email 
+ //  - Filter the result using below criteria 
+ // - State is FL or VA or MD 
+ //  - or Country is France
+
+SELECT Name, Country, Title, Company, Phone, State, Email
+FROM Lead
+WHERE (State IN ('FL' , 'VA' , 'MD' ) ) OR Country = 'France'

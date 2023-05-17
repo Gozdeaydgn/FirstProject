@@ -1,0 +1,16 @@
+//## Task 8:
+//Write a SOQL SELECT statement to retrieve
+//the Subject, ActivityDate, WhoId, Who.Name fields 
+//for all Task records where the WhoId not null
+
+
+SELECT Subject, ActivityDate, WhoId, Who.Name
+FROM Task
+WHERE WhoId != null
+
+
+
+
+
+
+
