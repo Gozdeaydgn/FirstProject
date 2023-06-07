@@ -5,9 +5,5 @@
 
 OverdueOppProcessor ovp = new OverdueOppProcessor();
 //Database.executeBatch(ovp, 150);  // 500/150 ====> 150-150-100-100
-Database.executeBatch(ovp, 200);  // 500/200 ====> 150-150-100-100
-
-
-//git config --global user.name "Gozde"
-
-//git config --global user.email "gozdeaydogn@hotmail.com"
+//Database.executeBatch(ovp, 200);  // 500/200 ====> 150-150-100-100
+Database.executeBatch(ovp, 100);
