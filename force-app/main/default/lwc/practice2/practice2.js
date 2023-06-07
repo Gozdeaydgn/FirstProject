@@ -13,7 +13,7 @@ export default class Practice2 extends LightningElement {
     //instead of creating new fields
     get fullName(){
         //return this.firstName + ' ' + this.lastName; 
-        return `${this.firstName} ${this.lastName} ` ;
+        return `${this.firstName}  ${this.lastName} ` ;
     }
 
         // add a function | method called handle click
@@ -22,7 +22,7 @@ export default class Practice2 extends LightningElement {
         handleClick() {
             console.log('Button is Clicked');
             this.firstName = 'Clark' ;
-            this.lastName = 'Kent';
+            this.lastName =  'Kent';
         }
 
     
