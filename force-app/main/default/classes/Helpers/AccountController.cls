@@ -33,11 +33,14 @@ public  class AccountController {
      * with AnnualRevenue Field filled up
      */  
 
+     @AuraEnabled(cacheable=true)
      public static List<Account>getAccountWithAnnualRevenue(){
 
         return [SELECT Id,Name,AnnualRevenue 
                 FROM Account
-                WHERE AnnualRevenue != null];
+                WHERE AnnualRevenue != null
+                WITH SECURITY_ENFORCED // WILL ENFORCE FIELD LEVEL SECURITY
+                ];
 
      }
 
