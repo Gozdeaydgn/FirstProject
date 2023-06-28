@@ -1,0 +1,28 @@
+<template>
+    
+    <lightning-card title="Filter Wired Data with slider" icon-name="standard:account">
+        <div class="slds-var-m-around_medium">
+            <!-- slider with to go from  0-1,000,000,000 in 10000 per slide-->
+            <lightning-slider 
+                label="Max Revenue" 
+                max = "1000000000" 
+                value={sliderValue}
+                onchange={handleSliderChange}
+                step="10000"
+            ></lightning-slider>
+            <!-- only display if there is a result -->
+            <template lwc:if={filteredAccount} >
+                <!-- for each directive to loop an array 
+                our array happen to be in wiredAccounts.data just like foodArray -->
+                <template for:each={filteredAccount} for:item="bla">
+                    <p key={bla.Id}> 
+                        Account name is  {bla.Name} |  Annual Revenue is {bla.AnnualRevenue}
+                    </p>
+                </template>
+            </template>
+
+
+        </div>
+    </lightning-card>
+
+</template>
